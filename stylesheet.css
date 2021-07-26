@@ -84,7 +84,7 @@ body{
 }
 
 .mySlides {
-  display: none;
+  display:initial;
  
   
 }
