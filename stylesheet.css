@@ -269,10 +269,7 @@ body{
   background-image: url(../KosovoBeauties-Multimedia/images/5.jpg);
   animation-delay: 24s; 
 }
-.cb-slideshow li:nth-child(6) span { 
-  background-image: url(../KosovoBeauties-Multimedia/images/6.jpg);
-  animation-delay: 30s; 
-}
+
 
 .cb-slideshow li:nth-child(2) div { 
   animation-delay: 6s; 
@@ -286,9 +283,7 @@ body{
 .cb-slideshow li:nth-child(5) div { 
   animation-delay: 24s; 
 }
-.cb-slideshow li:nth-child(6) div { 
-  animation-delay: 30s; 
-}
+
 @keyframes imageAnimation { 
   0% { opacity: 0; animation-timing-function: ease-in; }
   8% { opacity: 1; animation-timing-function: ease-out; }
