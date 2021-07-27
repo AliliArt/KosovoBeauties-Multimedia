@@ -111,7 +111,8 @@ h1{
 	letter-spacing: 2px;
 }
 
-ul{
+.nav nav{
+	
 	height:100vh;
 	text-align: center;
 	display:flex;
@@ -127,14 +128,12 @@ ul li{
 	height: 4ram;
 	display: flex;
 	overflow:hidden;
-	/*background-color: #161616;*/
 	margin-bottom: 0.5rem;
 	justify-content: center;
 }
 ul li span{
 	display:block;
-	
-	/*margin: 0.05rem;*/
+
 	transform:translateY(200%);
 }
 
@@ -143,7 +142,7 @@ ul li span.active{
 	transition: 1s ease-out;
 }
 
-ul li h1{
+.h1Lista{
 	margin-bottom: 150px;
 }
 
