@@ -113,7 +113,36 @@ h1{
 }
 
 ul{
-	 height:100vh;
-	 text-align: center;
+	height:100vh;
+	text-align: center;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+}
+.teksti{
+	font-size:28px;
+}
 
+ul li{
+	height: 4ram;
+	display: flex;
+	overflow:hidden;
+	/*background-color: #161616;*/
+	margin-bottom: 0.5rem;
+	justify-content: center;
+}
+ul li span{
+	display:block;
+	
+	/*margin: 0.05rem;*/
+	transform:translateY(200%);
+}
+
+ul li span.active{
+	transform:translateY(0%);
+	transition: 1s ease-out;
+}
+
+ul li h1{
+	margin-bottom: 150px;
 }
