@@ -50,10 +50,9 @@ body{
 	transition:0.7s;
 }
 .videoja{
-	margin-left: 15%;
-    margin-top: 2%;
+	margin: auto;
     display: block;
-	
+	align-items: center;
 
 }
 .main{
@@ -146,3 +145,26 @@ ul li span.active{
 ul li h1{
 	margin-bottom: 150px;
 }
+
+
+@media only screen and (max-width: 414px) {
+	.teksti{
+		font-size: 20px;
+
+	}
+	ul h1{
+		font-size: 30px;
+	}
+	ul li{
+		height: auto;
+		margin: auto;
+		display: inline-block;
+		padding: 0px;
+	}
+	.videoja{
+		margin: auto;
+		width: 10;
+		height: 10;
+		max-width: 300px;
+	}
+  }
