@@ -82,7 +82,7 @@
   .circle{
     width: 200px;
     height: 200px;
-    background: url(brezovicacircle.jfif );
+    background: url(Foto/brezovicacircle.jfif );
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -125,7 +125,7 @@
   .circle1{
     width: 200px;
     height: 200px;
-    background: url(mirusha.jpg );
+    background: url(Foto/mirusha.jpg );
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -168,7 +168,7 @@
   .circle2{
     width: 200px;
     height: 200px;
-    background: url(RugovaMountain.jpg );
+    background: url(Foto/RugovaMountain.jpg );
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -211,7 +211,7 @@
   .circle3{
     width: 200px;
     height: 200px;
-    background: url(Gadime.jpg );
+    background: url(Foto/Gadime.jpg );
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -254,7 +254,7 @@
   .circle4{
     width: 200px;
     height: 200px;
-    background: url(Radaci.jpg );
+    background: url(Foto/Radaci.jpg );
     border-radius: 50%;
     float: left;
     shape-outside: circle();
