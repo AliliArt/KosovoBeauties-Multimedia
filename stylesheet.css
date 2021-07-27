@@ -178,34 +178,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .cb-slideshow,
 .cb-slideshow:after { 
     position: absolute;
@@ -348,4 +320,8 @@ body{
 	}
 	25% { opacity: 0 }
 	100% { opacity: 0 }
+}
+
+li{
+  list-style-type: none;
 }
