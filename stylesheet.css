@@ -331,6 +331,7 @@ body{
 body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
+  min-height: 200vh;
 }
 *{
 	margin:0;
@@ -352,10 +353,13 @@ ul{
 	background-color: #24262b;
     padding: 70px 0;
     display: solid;
+    position: sticky;
+    top:100%;
 }
 .footer-col{
    width: 25%;
    padding: 0 15px;
+  
 }
 .footer-col h4{
 	font-size: 18px;
